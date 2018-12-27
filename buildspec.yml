@@ -23,4 +23,4 @@ artifacts:
   files:
     - dist/**/*
   name: output-$(date +%Y-%m-%d)
-  discard-paths: yes
+  discard-paths: no
