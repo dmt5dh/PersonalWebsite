@@ -16,7 +16,6 @@ phases:
       - yarn install
     finally:
       - yarn stage
-      - yarn serve
   build:
     commands:
       - yarn build
