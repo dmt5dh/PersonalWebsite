@@ -47,7 +47,6 @@ const blogQuery = gql `
     posts(orderBy: createdAt_DESC, first: $first, skip: $skip) {
       id
       title
-      content
       createdAt
       previewText
     },
