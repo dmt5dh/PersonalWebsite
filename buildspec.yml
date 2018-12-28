@@ -21,7 +21,7 @@ phases:
       - yarn build
   post_build:
     commands:
-      - aws s3 sync --delete s3://mywebsitebuild/ s3://themegatruong.com
+      - aws s3 sync --delete s3://mywebsitebuild/PersonalWebsite s3://themegatruong.com
 artifacts:
   files:
     - '**/*'
