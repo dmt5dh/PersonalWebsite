@@ -21,6 +21,7 @@ phases:
       - yarn build
 artifacts:
   files:
-    - dist/*
+    - '**/*'
+  base-directory: dist
   name: output-$(date +%Y-%m-%d)
   discard-paths: no
