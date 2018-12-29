@@ -27,14 +27,14 @@ export default {
         getData: () => ({
           name: 'Dan Truong',
           headline: 'About Me',
-          intro: 'Greetings! My name is Dan and I\'m a software developer based ' +
-          'in Washington D.C. I graduated from the University of Virginia with a ' +
-          'Bachelors in Computer Engineering. Since then, I have been a freelance ' +
-          'mobile developer and a technical consultant for government agencies. ' +
-          'I am currently a technical manager on various government projects. In ' +
-          'my free time I enjoy amateur photography, watching/talking/doing combat ' +
-          'sports, and chilling with my Golden Retriver and cat.',
-          snippet: 'Software Developer',
+          intro: 'Greetings! My name is Dan and I\'m a software developer ' +
+          'based in Washington D.C. I graduated from the University of ' +
+          'Virginia with a Bachelors of Science in Computer Engineering. ' +
+          'Since then, I worked as a freelance mobile developer and a ' +
+          'technical consultant for government agencies. I am currently a ' +
+          'technical manager on various government projects. In my free time ' +
+          'I enjoy amateur photography, watching/talking/doing combat sports, ' +
+          'and chilling with my Golden Retriever and cat.',
           button: 'Github'
         }),
       },
