@@ -6,7 +6,7 @@ import { request } from 'graphql-request'
 const GRAPHCMS_API = 'https://api-useast.graphcms.com/v1/cjns9sf7s0n3701glf3zoi7l0/master';
 const query = `
   {
-    posts {
+    posts(where:{status:PUBLISHED}) {
       id
       title
     }
