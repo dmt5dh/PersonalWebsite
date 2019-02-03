@@ -9,17 +9,6 @@ import client from './graphcms/connectors/apollo'
 
 import './app.css'
 
-const query = `
-  {
-    blogPosts {
-      id
-      createdAt
-      title
-      post
-    }
-  }
-`
-
 const App = () => (
   <ApolloProvider client={client}>
     <Root>

@@ -44,13 +44,13 @@ const Blog = ({data: {loading, error, posts, postsConnection}, loadMorePosts }) 
 // Connexion with apollo
 const blogQuery = gql `
   query posts($first: Int!, $skip: Int!) {
-    posts(orderBy: createdAt_DESC, first: $first, skip: $skip) {
+    posts(orderBy: createdAt_DESC, first: $first, skip: $skip, where:{status:PUBLISHED}) {
       id
       title
       createdAt
       previewText
     },
-    postsConnection {
+    postsConnection(where:{status:PUBLISHED}) {
       aggregate {
         count
       }
