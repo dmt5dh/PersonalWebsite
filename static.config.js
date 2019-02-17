@@ -25,7 +25,7 @@ export default {
         path: '/',
         component: 'src/pages/index',
         getData: () => ({
-          name: 'Dan Truong',
+          name: 'TEST CHANGE BUILD',
           headline: 'About Me',
           intro: 'Greetings! My name is Dan and I\'m a software developer ' +
           'based in Washington D.C. I graduated from the University of ' +
