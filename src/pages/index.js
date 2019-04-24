@@ -8,7 +8,7 @@ export default withRouteData(({headline, intro, button, name, snippet}) => (
       <div className="row">
         <div className="col-lg-4"></div>
         <div className="col-lg-4">
-          <img src={require('../../public/images/profile_pic.jpeg')} alt="my face here" className="rounded-circle profile-img" style={{width:'20em', height:'20em'}}/>
+          <img src={require('../../public/images/profile_pic.png')} alt="my face here" className="rounded-circle profile-img" style={{width:'20em', height:'20em'}}/>
         </div>
         <div className="col-lg-4"></div>
       </div>
